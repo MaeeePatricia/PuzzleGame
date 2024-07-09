@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio Treasure Hunt</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="title-container">
+            <img src="SanrioTitle.png" alt="Sanrio Title" id="title-image">
+        </div>
+        <div id="hunt-container">
+            <div id="hunt-board">
+                <img class="hunt-image" src="kuromilove.jpg" id="box1">
+                <img class="hunt-image" src="kuromilove.jpg" id="box2">
+                <img class="hunt-image" src="kuromilove.jpg" id="box3">
+                <img class="hunt-image" src="kuromilove.jpg" id="box4">
+                <img class="hunt-image" src="kuromilove.jpg" id="box5">
+                <img class="hunt-image" src="kuromilove.jpg" id="box6">
+                <img class="hunt-image" src="kuromilove.jpg" id="box7">
+                <img class="hunt-image" src="kuromilove.jpg" id="box8">
+                <img class="hunt-image" src="kuromilove.jpg" id="box9">
+            </div>
+            <div id="outcome-container">
+                <div id="outcome-box">
+                    <img id="outcome-image" src="kuromilove.jpg" alt="Outcome Image">
+                </div>
+            </div>
+        </div>
+
+        <p id="notice"></p>
+
+        <audio id="success-sound" src="correct.mp3"></audio>
+        <audio id="fail-sound" src="wrong.mp3"></audio>
+
+        <audio id="background-music" autoplay loop muted>
+            <source src="kuromisong.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
